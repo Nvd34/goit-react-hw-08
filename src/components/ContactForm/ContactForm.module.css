@@ -1,0 +1,35 @@
+.formContact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 24px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 3%;
+
+  box-sizing: border-box;
+}
+
+.inputContact {
+  height: 30px;
+  border: 1px solid black;
+  border: none;
+  outline: none;
+}
+
+.addContactBtn {
+  width: max-content;
+  margin: auto;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 8%;
+
+  font-size: 18px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 16px;
+}

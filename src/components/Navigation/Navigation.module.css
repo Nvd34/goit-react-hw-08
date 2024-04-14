@@ -1,0 +1,16 @@
+.navLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: white;
+}
+
+.navLink:hover {
+  color: purple;
+}
+.isActive {
+  color: aqua;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+}

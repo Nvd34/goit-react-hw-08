@@ -1,0 +1,17 @@
+.searchBoxContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  height: 30px;
+  border: 1px solid black;
+  border: none;
+  outline: none;
+}

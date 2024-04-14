@@ -1,0 +1,43 @@
+.registrForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputReg {
+  width: 400px;
+  padding: 7px 0px 7px 10px;
+  border-radius: 4px;
+}
+
+.iconReg {
+  position: absolute;
+  right: 10px;
+  fill: black;
+  /* bottom: 0px; */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.inputContainer {
+  position: relative;
+  width: 400px;
+}
+
+.registrBtn {
+  padding: 5px 20px;
+  background-color: aqua;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.registrBtn:hover {
+  background-color: aquamarine;
+}
